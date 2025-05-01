@@ -19,6 +19,7 @@ Usage Example:
 */
 
 
+
 create or alter procedure silver.prac as 
 BEGIN	
 	Declare @start_time datetime , @end_time datetime, @batch_start_time datetime, @batch_end_time datetime;
@@ -176,11 +177,11 @@ BEGIN
 
 
 
-		--Inserting silver.erp_loc_a101
+		--Inserting silver.erp_cust_az12
 		Set @start_time = GETDATE();
-		print 'Truncating silver.erp_loc_a101';
-		Truncate Table silver.erp_loc_a101;
-		print'Inserting silver.erp_loc_a101';
+		print 'Truncating silver.erp_cust_az12';
+		Truncate Table silver.erp_cust_az12;
+		print'Inserting silver.erp_cust_az12';
 
 
 
@@ -211,9 +212,9 @@ BEGIN
 
 		--INSERING silver.erp_cust_az12
 		SET @start_time = GETDATE();
-		print 'Truncating silver.erp_cust_az12';
-		Truncate Table silver.erp_cust_az12;
-		print'Inserting silver.erp_cust_az12';
+		print 'Truncating silver.erp_loc_a101';
+		Truncate Table silver.erp_loc_a101;
+		print'Inserting silver.erp_loc_a101';
 
 
 		Insert into silver.erp_loc_a101(
@@ -276,3 +277,4 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
+
