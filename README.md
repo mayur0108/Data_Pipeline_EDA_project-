@@ -24,7 +24,7 @@ This project encompasses:
 * **Data Ingestion**: Loading raw datasets into the database.
 * **Data Transformation**: Cleaning and transforming data to ensure quality and consistency.
 * **Data Modeling**: Designing fact and dimension tables optimized for analytical queries.
-* **Exploratory Data Analysis (EDA)**: Generating insights through data visualization and statistical analysis.([GitHub][1])
+* **Exploratory Data Analysis (EDA)**: Generating insights through data visualization and statistical analysis.
 
 ---
 
